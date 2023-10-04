@@ -1,0 +1,18 @@
+/* To align header on top of cards vertically */
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* To align cards horizontall and wrap when resizing windows*/
+.weather-app {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Heading */
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}

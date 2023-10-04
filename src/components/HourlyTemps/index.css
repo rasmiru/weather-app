@@ -1,0 +1,25 @@
+.hourly-forecast {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hourly-cell {
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+}
+
+
+.high-temp {
+    background-color: #cd4747;
+    /* Soft Orange */
+}
+
+.low-temp {
+    background-color: #4271b9;
+    /* Light Blue */
+}
